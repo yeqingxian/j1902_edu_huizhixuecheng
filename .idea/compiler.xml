@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hzxc_eureka_server" />
         <module name="j1902_edu_huizhixuecheng" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hzxc_eureka_server" target="1.8" />
       <module name="j1902_edu_huizhixuecheng" target="1.5" />
     </bytecodeTargetLevel>
   </component>
